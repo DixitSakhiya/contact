@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointment form</title>
+</head>
+<body>
+    <center>
+        <form>
+            <label for="firstname" >Firstname</label>
+            <input type="text" id=firstname name="fname" placeholder="FirstName*" required>
+            <br><br>
+            <label for="lastname" >LastName</label>
+            <input type="text" id=lastname name="lname" placeholder="LastName*"required>
+            <br><br>
+            <p style="display: inline;"> Gender : </p>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" required>
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" required>
+            <label for="other">Other</label>
+            <input type="radio" id="other" name="gender" required>
+            <br><br>
+            <p style="display: inline;">Select City</p>
+            <select id="city" name="city">
+                <option value="rajkot">Rajkot</option>
+                <option value="jamnagar">Jamnagar</option>
+                <option value="bhavnagar">Bhavnagar</option>
+                <option value="porbander">Porbander</option>
+            </select>
+            <br><br>
+            <label for="dateofbirth">D.O.B</label>
+            <input type="date" id="dateofbirth" required>
+            <br><br>
+            <label for="appointment">Appointment</label>
+            <input type="datetime-local" id="appointment" required>
+            <br><br>
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="abc@gmail.com*" required>
+            <br><br>
+            <label for="photo">Uplode Photo</label>
+            <input type="file" id="photo" required>
+            <br><br>
+            <input type="submit" value="submit">
+            <input type="reset" value="reset">
+        </form>
+    </center>
+</body>
+</html>
